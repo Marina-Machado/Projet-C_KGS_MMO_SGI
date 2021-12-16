@@ -1,0 +1,2 @@
+C:\MA\Projet C#\github_c#\Projet-C_KGS_MMO_SGI\Code\User\ContentData\obj\Debug\Prospopedia.csproj.AssemblyReference.cache
+C:\MA\Projet C#\github_c#\Projet-C_KGS_MMO_SGI\Code\User\ContentData\obj\Debug\Prospopedia.csproj.CoreCompileInputs.cache
