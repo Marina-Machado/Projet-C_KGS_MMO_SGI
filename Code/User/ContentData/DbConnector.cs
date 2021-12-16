@@ -26,9 +26,9 @@ namespace Prospopedia
         {
             string connectionString;
             server = "localhost";
-            database = "connectcsharptomysql";
-            uid = "username";
-            password = "password";
+            database = "prospopediadb";
+            uid = "admin";
+            password = "Pa$$w0rd";
             connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
             connection = new MySqlConnection(connectionString);
         }
