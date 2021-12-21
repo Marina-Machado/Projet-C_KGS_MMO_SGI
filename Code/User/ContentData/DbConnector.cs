@@ -7,7 +7,7 @@ using MySql.Data.MySqlClient;
 
 namespace Prospopedia
 {
-    class DbConnector
+    public class DbConnector
     {
         private MySqlConnection connection;
         private string server;
@@ -120,30 +120,35 @@ namespace Prospopedia
         }
 
         //Delete statement
-        public void Delete()
+        public void Delete(string query)
         {
-            string query = "DELETE FROM tableinfo WHERE name='John Smith'";
+            //string query = "DELETE FROM tableinfo WHERE name='John Smith'";
 
             if (this.OpenConnection() == true)
             {
                 MySqlCommand cmd = new MySqlCommand(query, connection);
                 cmd.ExecuteNonQuery();
                 this.CloseConnection();
+                
             }
         }
 
 
         //Select statement
-        public List<string>[] Select()
+        public List<string>[] Select(string query)
         {
-            string query = "SELECT * FROM tableinfo";
+            //string query = "SELECT * FROM tableinfo";
 
             //Create a list to store the result
+
+            
             List<string>[] list = new List<string>[3];
             list[0] = new List<string>();
             list[1] = new List<string>();
             list[2] = new List<string>();
 
+
+            
             //Open connection
             if (this.OpenConnection() == true)
             {
@@ -155,9 +160,12 @@ namespace Prospopedia
                 //Read the data and store them in the list
                 while (dataReader.Read())
                 {
-                    list[0].Add(dataReader["id"] + "");
-                    list[1].Add(dataReader["name"] + "");
-                    list[2].Add(dataReader["age"] + "");
+                    
+
+                    list[0].Add(dataReader["password"] + "");
+                    //list[1].Add(dataReader["name"] + "");
+                    //list[2].Add(dataReader["age"] + "");
+
                 }
 
                 //close Data Reader
