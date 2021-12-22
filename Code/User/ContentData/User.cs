@@ -12,18 +12,20 @@ namespace Prospopedia
         private string _username;
         private string _email;
 
-        public User(string username, string email)
+        public User(string username = null, string email = null)
         {
             _username = username;
             _email = email;
         }
 
 
-        public void Login(string email, string password)
+
+
+        public bool Login(string email, string password)
         {
 
             List<string>[] data;
-            string loginQuery = "SELECT Password FROM prospopediadb WHERE email = " + email + ";";
+            string loginQuery = "SELECT password, username FROM prospopediadb WHERE email = " + email + ";";
             if(email != null || password != null)
             {
 
@@ -32,14 +34,18 @@ namespace Prospopedia
                 data = dbConnector.Select(loginQuery);
                 if(data[0][0] == password)
                 {
-
+                    _username = data[0][1];
+                    _email = email;
+                    return true;
                     throw new NotImplementedException();
 
                 }
+                return false;
                 
             }
             else
             {
+                return false;
                 throw new NoDataException();
             }
 
