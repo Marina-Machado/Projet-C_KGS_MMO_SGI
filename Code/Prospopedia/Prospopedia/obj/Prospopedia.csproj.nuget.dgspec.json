@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shans\\source\\repos\\Prospopedia\\Prospopedia\\Prospopedia.csproj": {}
+    "C:\\project\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shans\\source\\repos\\Prospopedia\\Prospopedia\\Prospopedia.csproj": {
+    "C:\\project\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shans\\source\\repos\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
+        "projectUniqueName": "C:\\project\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
         "projectName": "Prospopedia",
-        "projectPath": "C:\\Users\\shans\\source\\repos\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
+        "projectPath": "C:\\project\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
         "packagesPath": "C:\\Users\\shans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shans\\source\\repos\\Prospopedia\\Prospopedia\\obj\\",
+        "outputPath": "C:\\project\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shans\\AppData\\Roaming\\NuGet\\NuGet.Config",

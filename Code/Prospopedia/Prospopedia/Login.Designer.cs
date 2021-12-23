@@ -82,6 +82,7 @@ namespace Prospopedia
             this.textBox2.Location = new System.Drawing.Point(257, 342);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(334, 31);
             this.textBox2.TabIndex = 4;
             // 
@@ -109,7 +110,7 @@ namespace Prospopedia
             // 
             // pboxLogin
             // 
-            this.pboxLogin.ImageLocation = "C:\\projet_C#_github\\Projet-C_KGS_MMO_SGI\\Code\\img\\Login_photo.jpg";
+            this.pboxLogin.ImageLocation = "C:\\project\\Projet-C_KGS_MMO_SGI\\Code\\img\\Login_photo.jpg";
             this.pboxLogin.InitialImage = null;
             this.pboxLogin.Location = new System.Drawing.Point(727, 140);
             this.pboxLogin.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
