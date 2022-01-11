@@ -26,8 +26,8 @@ namespace Prospopedia
         {
             string connectionString;
             server = "127.0.0.1";
-            database = "Prospopediadb";
-            uid = "Prospopedia";
+            database = "prospopediadb";
+            uid = "admin";
             password = "Pa$$w0rd";
             connectionString = "SERVER=" + server + ";" + "Port = 3306;" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "pwd=" + password + ";" + "SSL Mode = None";
             connection = new MySql.Data.MySqlClient.MySqlConnection(connectionString);
