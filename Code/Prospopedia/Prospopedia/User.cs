@@ -26,13 +26,13 @@ namespace Prospopedia
             if (email != null || password != null || email != "" || password != "")
             {
                 List<string> data;
-                string loginQuery = "SELECT password, nickname FROM users WHERE email = '" + email + "';";
+                string loginQuery = "SELECT COUNT(nickname) FROM users WHERE password ='"+ password + "'AND email = '" + email + "';";
 
 
                 DbConnector dbConnector = new DbConnector();
 
                 data = dbConnector.Select(loginQuery);
-                if (data[0] == password)
+                if (data[0] == "1")
                 {
                     return true;
 

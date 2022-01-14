@@ -26,8 +26,8 @@ namespace Prospopedia
         {
             string connectionString;
             server = "127.0.0.1";
-            database = "prospopediadb";
-            uid = "admin";
+            database = "Prospopediadb";
+            uid = "Prospopedia";
             password = "Pa$$w0rd";
             connectionString = "SERVER=" + server + ";" + "Port = 3306;" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "pwd=" + password + ";" + "SSL Mode = None";
             connection = new MySql.Data.MySqlClient.MySqlConnection(connectionString);
@@ -78,9 +78,9 @@ namespace Prospopedia
         }
 
         //Insert statement
-        public void Insert()
+        public void Insert(string query)
         {
-            string query = "INSERT INTO tableinfo (name, age) VALUES('John Smith', '33')";
+            //string query = "INSERT INTO tableinfo (name, age) VALUES('John Smith', '33')";
 
             //open connection
             if (this.OpenConnection() == true)
@@ -97,9 +97,9 @@ namespace Prospopedia
         }
 
         //Update statement
-        public void Update()
+        public void Update(string query)
         {
-            string query = "UPDATE tableinfo SET name='Joe', age='22' WHERE name='John Smith'";
+            //string query = "UPDATE tableinfo SET name='Joe', age='22' WHERE name='John Smith'";
 
             //Open connection
             if (this.OpenConnection() == true)
@@ -158,7 +158,7 @@ namespace Prospopedia
                 while (dataReader.Read())
                 {
                     var myString = dataReader.GetString(0); //The 0 stands for "the 0'th column", so the first column of the result.
-                                                     // Do somthing with this rows string, for example to put them in to a list
+                                                            // Do somthing with this rows string, for example to put them in to a list
                     list.Add(myString);
                 }
 
@@ -178,9 +178,9 @@ namespace Prospopedia
         }
 
         //Count statement
-        public int Count()
+        public int Count(string query)
         {
-            string query = "SELECT Count(*) FROM tableinfo";
+            //string query = "SELECT Count(*) FROM tableinfo";
             int Count = -1;
 
             //Open Connection

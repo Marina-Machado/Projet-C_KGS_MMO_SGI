@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kevin.DE-ALMEIDA-GOM\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj": {}
+    "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kevin.DE-ALMEIDA-GOM\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj": {
+    "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin.DE-ALMEIDA-GOM\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
+        "projectUniqueName": "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
         "projectName": "Prospopedia",
-        "projectPath": "C:\\Users\\Kevin.DE-ALMEIDA-GOM\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
-        "packagesPath": "C:\\Users\\Kevin.DE-ALMEIDA-GOM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin.DE-ALMEIDA-GOM\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\obj\\",
+        "projectPath": "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
+        "packagesPath": "C:\\Users\\shans\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kevin.DE-ALMEIDA-GOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
