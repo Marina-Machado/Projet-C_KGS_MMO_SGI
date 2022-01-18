@@ -18,6 +18,22 @@ namespace Prospopedia
             _email = email;
         }
 
+        public string Username
+        {
+            get
+            {
+                return _username;
+            }
+        }
+
+        public string Email
+        {
+            get
+            {
+                return _email;
+            }
+        }
+
 
 
 
@@ -49,6 +65,22 @@ namespace Prospopedia
                 throw new NoDataException();
             }
 
+        }
+
+        //bonus Register
+        public void Register()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddFavoriteCharacter()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void AddFavoriteAudioVisual()
+        {
+            throw new NotImplementedException();
         }
 
 

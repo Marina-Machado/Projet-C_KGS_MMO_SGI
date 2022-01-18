@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Prospopedia;
 
 namespace Prospopedia
 {
@@ -22,6 +23,17 @@ namespace Prospopedia
             Form f2 = new Form();
             f2.Show();
             linkLabel1.LinkVisited = true;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void label12_Click(object sender, EventArgs e)
+        {
+            label12.Text = "caca";
+
         }
     }
 }

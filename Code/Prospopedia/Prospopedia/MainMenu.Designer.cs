@@ -33,8 +33,38 @@ namespace Prospopedia
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -45,55 +75,25 @@ namespace Prospopedia
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -145,6 +145,84 @@ namespace Prospopedia
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Top films";
             // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(111, 171);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(44, 15);
+            this.label22.TabIndex = 26;
+            this.label22.Text = "label22";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(111, 105);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(44, 15);
+            this.label21.TabIndex = 25;
+            this.label21.Text = "label21";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(111, 40);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(44, 15);
+            this.label20.TabIndex = 24;
+            this.label20.Text = "label20";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(9, 171);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(13, 15);
+            this.label11.TabIndex = 20;
+            this.label11.Text = "3";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(9, 105);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(13, 15);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "2";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 40);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(13, 15);
+            this.label9.TabIndex = 22;
+            this.label9.Text = "1";
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Location = new System.Drawing.Point(28, 154);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(50, 49);
+            this.pictureBox11.TabIndex = 21;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Location = new System.Drawing.Point(28, 88);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(50, 49);
+            this.pictureBox10.TabIndex = 20;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Location = new System.Drawing.Point(28, 22);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(50, 49);
+            this.pictureBox9.TabIndex = 19;
+            this.pictureBox9.TabStop = false;
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label19);
@@ -162,6 +240,84 @@ namespace Prospopedia
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Top séries";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(115, 171);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(44, 15);
+            this.label19.TabIndex = 23;
+            this.label19.Text = "label19";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(115, 105);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(44, 15);
+            this.label18.TabIndex = 22;
+            this.label18.Text = "label18";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(115, 40);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(44, 15);
+            this.label17.TabIndex = 21;
+            this.label17.Text = "label17";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(11, 171);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(13, 15);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "3";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(11, 105);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(13, 15);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "2";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(11, 40);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(13, 15);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "1";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Location = new System.Drawing.Point(30, 154);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(50, 49);
+            this.pictureBox8.TabIndex = 18;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(30, 88);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(50, 49);
+            this.pictureBox7.TabIndex = 17;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(30, 22);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(50, 49);
+            this.pictureBox6.TabIndex = 16;
+            this.pictureBox6.TabStop = false;
             // 
             // groupBox3
             // 
@@ -183,6 +339,114 @@ namespace Prospopedia
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Genres";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(130, 138);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(44, 15);
+            this.label34.TabIndex = 32;
+            this.label34.Text = "label34";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(74, 138);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(44, 15);
+            this.label33.TabIndex = 31;
+            this.label33.Text = "label33";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(15, 138);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(44, 15);
+            this.label32.TabIndex = 30;
+            this.label32.Text = "label32";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(130, 105);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(44, 15);
+            this.label31.TabIndex = 29;
+            this.label31.Text = "label31";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(74, 105);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(44, 15);
+            this.label30.TabIndex = 28;
+            this.label30.Text = "label30";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(15, 105);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(44, 15);
+            this.label29.TabIndex = 27;
+            this.label29.Text = "label29";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(130, 69);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(44, 15);
+            this.label28.TabIndex = 26;
+            this.label28.Text = "label28";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(74, 69);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(44, 15);
+            this.label27.TabIndex = 25;
+            this.label27.Text = "label27";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(15, 69);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(44, 15);
+            this.label26.TabIndex = 24;
+            this.label26.Text = "label26";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(130, 31);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(44, 15);
+            this.label25.TabIndex = 23;
+            this.label25.Text = "label25";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(74, 31);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(44, 15);
+            this.label24.TabIndex = 22;
+            this.label24.Text = "label24";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(15, 31);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(44, 15);
+            this.label23.TabIndex = 21;
+            this.label23.Text = "label23";
             // 
             // label2
             // 
@@ -239,6 +503,7 @@ namespace Prospopedia
             this.pictureBox1.Size = new System.Drawing.Size(107, 102);
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -272,108 +537,6 @@ namespace Prospopedia
             this.pictureBox5.TabIndex = 15;
             this.pictureBox5.TabStop = false;
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(30, 22);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(50, 49);
-            this.pictureBox6.TabIndex = 16;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(30, 88);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(50, 49);
-            this.pictureBox7.TabIndex = 17;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Location = new System.Drawing.Point(30, 154);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(50, 49);
-            this.pictureBox8.TabIndex = 18;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Location = new System.Drawing.Point(28, 22);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(50, 49);
-            this.pictureBox9.TabIndex = 19;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Location = new System.Drawing.Point(28, 88);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(50, 49);
-            this.pictureBox10.TabIndex = 20;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Location = new System.Drawing.Point(28, 154);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(50, 49);
-            this.pictureBox11.TabIndex = 21;
-            this.pictureBox11.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(11, 40);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(13, 15);
-            this.label6.TabIndex = 19;
-            this.label6.Text = "1";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(11, 105);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(13, 15);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "2";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(11, 171);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(13, 15);
-            this.label8.TabIndex = 21;
-            this.label8.Text = "3";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 40);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(13, 15);
-            this.label9.TabIndex = 22;
-            this.label9.Text = "1";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(9, 105);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(13, 15);
-            this.label10.TabIndex = 23;
-            this.label10.Text = "2";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(9, 171);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(13, 15);
-            this.label11.TabIndex = 20;
-            this.label11.Text = "3";
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -382,6 +545,7 @@ namespace Prospopedia
             this.label12.Size = new System.Drawing.Size(44, 15);
             this.label12.TabIndex = 16;
             this.label12.Text = "label12";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
             // 
@@ -419,168 +583,6 @@ namespace Prospopedia
             this.label16.TabIndex = 20;
             this.label16.Text = "label16";
             // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(115, 40);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(44, 15);
-            this.label17.TabIndex = 21;
-            this.label17.Text = "label17";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(115, 105);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(44, 15);
-            this.label18.TabIndex = 22;
-            this.label18.Text = "label18";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(115, 171);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(44, 15);
-            this.label19.TabIndex = 23;
-            this.label19.Text = "label19";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(111, 40);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(44, 15);
-            this.label20.TabIndex = 24;
-            this.label20.Text = "label20";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(111, 105);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(44, 15);
-            this.label21.TabIndex = 25;
-            this.label21.Text = "label21";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(111, 171);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(44, 15);
-            this.label22.TabIndex = 26;
-            this.label22.Text = "label22";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(15, 31);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(44, 15);
-            this.label23.TabIndex = 21;
-            this.label23.Text = "label23";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(74, 31);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(44, 15);
-            this.label24.TabIndex = 22;
-            this.label24.Text = "label24";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(130, 31);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(44, 15);
-            this.label25.TabIndex = 23;
-            this.label25.Text = "label25";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(15, 69);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(44, 15);
-            this.label26.TabIndex = 24;
-            this.label26.Text = "label26";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(74, 69);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(44, 15);
-            this.label27.TabIndex = 25;
-            this.label27.Text = "label27";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(130, 69);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(44, 15);
-            this.label28.TabIndex = 26;
-            this.label28.Text = "label28";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(15, 105);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(44, 15);
-            this.label29.TabIndex = 27;
-            this.label29.Text = "label29";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(74, 105);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(44, 15);
-            this.label30.TabIndex = 28;
-            this.label30.Text = "label30";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(130, 105);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(44, 15);
-            this.label31.TabIndex = 29;
-            this.label31.Text = "label31";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(15, 138);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(44, 15);
-            this.label32.TabIndex = 30;
-            this.label32.Text = "label32";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(74, 138);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(44, 15);
-            this.label33.TabIndex = 31;
-            this.label33.Text = "label33";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(130, 138);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(44, 15);
-            this.label34.TabIndex = 32;
-            this.label34.Text = "label34";
-            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -611,8 +613,14 @@ namespace Prospopedia
             this.Text = "Form1";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -620,12 +628,6 @@ namespace Prospopedia
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
