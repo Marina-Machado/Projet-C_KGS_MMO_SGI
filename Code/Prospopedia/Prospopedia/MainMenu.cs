@@ -10,6 +10,14 @@ using System.Windows.Forms;
 using Prospopedia;
 using System.IO;
 
+/*
+ *Auteur : KGS, SGI
+* Date : 23 / 01 / 2022
+* Version : 1.0
+* Description : Interface principale où l'on pourra voir les ajout récent ainsi que les tops des shows et des personnages.
+ */
+
+
 namespace Prospopedia
 {
     public partial class MainMenu : Form
