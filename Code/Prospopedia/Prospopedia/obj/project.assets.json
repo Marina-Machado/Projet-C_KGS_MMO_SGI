@@ -888,19 +888,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shans\\.nuget\\packages\\": {}
+    "C:\\Users\\Kevin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin\\Documents\\GitHub\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
       "projectName": "Prospopedia",
-      "projectPath": "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
-      "packagesPath": "C:\\Users\\shans\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\obj\\",
+      "projectPath": "C:\\Users\\Kevin\\Documents\\GitHub\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
+      "packagesPath": "C:\\Users\\Kevin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kevin\\Documents\\GitHub\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\shans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
