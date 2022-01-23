@@ -22,6 +22,10 @@ namespace Prospopedia
 {
     public partial class MainMenu : Form
     {
+        private List<DataHandler> _allSeriesMM;
+        private List<DataHandler>_allMoviesMM;
+        private List<DataHandler> _allShowsMM;
+        private List<DataHandler> _allGenresMM;
         /*
          * made by Shanshe Gundishvili 
          * date: 23.01.2022
@@ -37,6 +41,8 @@ namespace Prospopedia
             string query = "SELECT shows.id, shows.title, images.placement FROM shows INNER JOIN shows_has_images ON shows.id = shows_has_images.shows_id INNER JOIN images ON shows_has_images.images_id = images.id WHERE shows.type = 'show' ORDER BY shows.ranking LIMIT 3;";
             List<DataHandler> allSeriesMM = dbConnector.Select(query, 3);
 
+
+
             query = "SELECT shows.id, shows.title, images.placement FROM shows INNER JOIN shows_has_images ON shows.id = shows_has_images.shows_id INNER JOIN images ON shows_has_images.images_id = images.id WHERE shows.type = 'movie' ORDER BY shows.ranking LIMIT 3;";
             List<DataHandler> allMoviesMM = dbConnector.Select(query, 3);
 
@@ -45,6 +51,11 @@ namespace Prospopedia
 
             query = "SELECT genre FROM genres";
             List<DataHandler> allGenresMM = dbConnector.Select(query, 1);
+
+            _allGenresMM = allGenresMM;
+            _allMoviesMM = allMoviesMM;
+            _allSeriesMM = allSeriesMM;
+            _allShowsMM = allShowsMM;
 
             //genres
             
@@ -93,13 +104,13 @@ namespace Prospopedia
 
 
             //top movies
-            label20.Text = allSeriesMM[0].I2;
+            label20.Text = allMoviesMM[0].I2;
             pictureBox9.Image = Image.FromFile(path + allMoviesMM[0].I3);
 
-            label21.Text = allSeriesMM[1].I2;
+            label21.Text = allMoviesMM[1].I2;
             pictureBox10.Image = Image.FromFile(path + allMoviesMM[1].I3);
 
-            label22.Text = allSeriesMM[2].I2;
+            label22.Text = allMoviesMM[2].I2;
             pictureBox11.Image = Image.FromFile(path + allMoviesMM[2].I3);
 
         }
@@ -109,10 +120,7 @@ namespace Prospopedia
             new NotImplementedException();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            new NotImplementedException();
-        }
+
 
         public void label12_Click(object sender, EventArgs e)
         {
@@ -126,6 +134,101 @@ namespace Prospopedia
         private void MainMenu_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl1Det = new ShowDetail(_allShowsMM[0].I1);
+            lbl1Det.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl2Det = new ShowDetail(_allShowsMM[1].I1);
+            lbl2Det.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl3Det = new ShowDetail(_allShowsMM[2].I1);
+            lbl3Det.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl4Det = new ShowDetail(_allShowsMM[3].I1);
+            lbl4Det.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl5Det = new ShowDetail(_allShowsMM[4].I1);
+            lbl5Det.Show();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl6Det = new ShowDetail(_allSeriesMM[0].I1);
+            lbl6Det.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl7Det = new ShowDetail(_allSeriesMM[1].I1);
+            lbl7Det.Show();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl8Det = new ShowDetail(_allSeriesMM[2].I1);
+            lbl8Det.Show();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl9Det = new ShowDetail(_allMoviesMM[0].I1);
+            lbl9Det.Show();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl10Det = new ShowDetail(_allMoviesMM[1].I1);
+            lbl10Det.Show();
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            ShowDetail lbl11Det = new ShowDetail(_allMoviesMM[2].I1);
+            lbl11Det.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            TopShowPage TCP = new();
+            TCP.Show();
         }
     }
 }

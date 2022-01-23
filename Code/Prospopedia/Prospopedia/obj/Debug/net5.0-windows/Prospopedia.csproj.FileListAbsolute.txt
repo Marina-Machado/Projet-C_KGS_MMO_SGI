@@ -29,3 +29,7 @@ C:\Users\shans\Source\Repos\Projet-C_KGS_MMO_SGI\Code\Prospopedia\Prospopedia\ob
 C:\Users\shans\Source\Repos\Projet-C_KGS_MMO_SGI\Code\Prospopedia\Prospopedia\obj\Debug\net5.0-windows\Prospopedia.pdb
 C:\Users\shans\Source\Repos\Projet-C_KGS_MMO_SGI\Code\Prospopedia\Prospopedia\obj\Debug\net5.0-windows\Prospopedia.genruntimeconfig.cache
 C:\Users\shans\Source\Repos\Projet-C_KGS_MMO_SGI\Code\Prospopedia\Prospopedia\obj\Debug\net5.0-windows\Prospopedia.csproj.AssemblyReference.cache
+C:\Users\shans\source\repos\Projet-C_KGS_MMO_SGI\Code\Prospopedia\Prospopedia\obj\Debug\net5.0-windows\Prospopedia.CharacterDetail.resources
+C:\Users\shans\source\repos\Projet-C_KGS_MMO_SGI\Code\Prospopedia\Prospopedia\obj\Debug\net5.0-windows\Prospopedia.ShowDetail.resources
+C:\Users\shans\source\repos\Projet-C_KGS_MMO_SGI\Code\Prospopedia\Prospopedia\obj\Debug\net5.0-windows\Prospopedia.TopCharacterPage.resources
+C:\Users\shans\source\repos\Projet-C_KGS_MMO_SGI\Code\Prospopedia\Prospopedia\obj\Debug\net5.0-windows\Prospopedia.TopShowPage.resources
