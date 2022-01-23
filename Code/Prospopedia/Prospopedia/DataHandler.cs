@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace Prospopedia
 {
+    /*
+     * Made by Shanshe Gundishvili
+     * date : 23.01.2022
+     * this class is created to make selecting multiple columns and rows possible 
+     * (all the getters and setters were needed)
+     */
     public class DataHandler
     {
         private string i1;

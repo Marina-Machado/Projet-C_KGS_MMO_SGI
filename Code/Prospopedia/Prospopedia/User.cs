@@ -36,7 +36,11 @@ namespace Prospopedia
 
 
 
-
+        /*
+         * Made by Shanshe Gundishvili
+         * Date : 23.01.2022
+         * desc : this method is here to check if the login used by user is correct using "SELECT COUNT"
+         */
         public bool Login(string email, string password)
         {
             if (email != null || password != null || email != "" || password != "")

@@ -15,9 +15,9 @@ namespace Prospopedia
     public partial class MainMenu : Form
     {
         /*
-         * 
-         * 
-         * 
+         * made by Shanshe Gundishvili 
+         * date: 23.01.2022
+         * desc: this is constructor of main menu, it gets all the information present on main menu
          */
         public MainMenu()
         {
@@ -98,22 +98,23 @@ namespace Prospopedia
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form f2 = new Form();
-            f2.Show();
-            linkLabel1.LinkVisited = true;
+            new NotImplementedException();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            new NotImplementedException();
         }
 
         public void label12_Click(object sender, EventArgs e)
         {
-            label12.Text = "caca";
-
+            new NotImplementedException();
         }
-
+        /*
+         * made by Shanshe Gundishvili 
+         * date: 23.01.2022
+         * desc: this methode makes so the application actually closes when clicking on exit
+         */
         private void MainMenu_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();

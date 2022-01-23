@@ -8,6 +8,12 @@ using System.Data;
 
 namespace Prospopedia
 {
+
+     /*
+     * made by Shanshe Gundishvili 
+     * date: 23.01.2022
+     * desc: this is class for connecting to mysql server
+     */
     public class DbConnector
     {
         private MySqlConnection connection;
@@ -16,13 +22,21 @@ namespace Prospopedia
         private string uid;
         private string password;
 
-        //Constructor
+        /*
+        * made by Shanshe Gundishvili 
+        * date: 23.01.2022
+        * desc: this is constructor for connecting to mysql server
+        */
         public DbConnector()
         {
             Initialize();
         }
 
-        //Initialize values
+        /*
+        * made by Shanshe Gundishvili 
+        * date: 23.01.2022
+        * desc: this is constructor's initialiser for connecting to mysql server
+        */
         private void Initialize()
         {
             string connectionString;
@@ -34,7 +48,11 @@ namespace Prospopedia
             connection = new MySql.Data.MySqlClient.MySqlConnection(connectionString);
         }
 
-        //open connection to database
+        /*
+        * made by Shanshe Gundishvili 
+        * date: 23.01.2022
+        * desc: this is methid that actually connects to mysql server
+        */
         private bool OpenConnection()
         {
             try
@@ -63,7 +81,11 @@ namespace Prospopedia
             }
         }
 
-        //Close connection
+        /*
+        * made by Shanshe Gundishvili 
+        * date: 23.01.2022
+        * desc: this is to close connection between server and client (mysql - application) 
+        */
         private bool CloseConnection()
         {
             try
@@ -78,7 +100,11 @@ namespace Prospopedia
             }
         }
 
-        //Insert statement
+        /*
+        * made by Shanshe Gundishvili 
+        * date: 23.01.2022
+        * desc: this is for insert function
+        */
         public void Insert(string query)
         {
             //string query = "INSERT INTO tableinfo (name, age) VALUES('John Smith', '33')";
@@ -97,7 +123,11 @@ namespace Prospopedia
             }
         }
 
-        //Update statement
+        /*
+        * made by Shanshe Gundishvili 
+        * date: 23.01.2022
+        * desc: this is for Update function
+        */
         public void Update(string query)
         {
             //string query = "UPDATE tableinfo SET name='Joe', age='22' WHERE name='John Smith'";
@@ -120,7 +150,11 @@ namespace Prospopedia
             }
         }
 
-        //Delete statement
+        /*
+        * made by Shanshe Gundishvili 
+        * date: 23.01.2022
+        * desc: this is for delete function
+        */
         public void Delete(string query)
         {
             //string query = "DELETE FROM tableinfo WHERE name='John Smith'";
@@ -135,7 +169,11 @@ namespace Prospopedia
         }
 
 
-        //Select statement
+        /*
+        * made by Shanshe Gundishvili 
+        * date: 23.01.2022
+        * desc: this is for select function
+        */
         public List<DataHandler> Select(string query, int nOfColumns)
         {
             //query = "SELECT * FROM images";
@@ -193,7 +231,11 @@ namespace Prospopedia
             }
         }
 
-        //Count statement
+        /*
+        * made by Shanshe Gundishvili 
+        * date: 23.01.2022
+        * desc: this is for count function
+        */
         public int Count(string query)
         {
             //string query = "SELECT Count(*) FROM tableinfo";
