@@ -888,24 +888,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yotsy\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\shans\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\GITHUB\\projetC#\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
+      "projectUniqueName": "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
       "projectName": "Prospopedia",
-      "projectPath": "A:\\GITHUB\\projetC#\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
-      "packagesPath": "C:\\Users\\Yotsy\\.nuget\\packages\\",
-      "outputPath": "A:\\GITHUB\\projetC#\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\obj\\",
+      "projectPath": "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\Prospopedia.csproj",
+      "packagesPath": "C:\\Users\\shans\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shans\\Source\\Repos\\Projet-C_KGS_MMO_SGI\\Code\\Prospopedia\\Prospopedia\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Yotsy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\shans\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -958,7 +953,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

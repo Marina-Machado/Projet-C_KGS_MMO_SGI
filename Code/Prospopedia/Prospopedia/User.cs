@@ -41,19 +41,19 @@ namespace Prospopedia
         {
             if (email != null || password != null || email != "" || password != "")
             {
-                List<string> data;
+                List<DataHandler> data;
                 string loginQuery = "SELECT COUNT(nickname) FROM users WHERE password ='"+ password + "'AND email = '" + email + "';";
 
 
                 DbConnector dbConnector = new DbConnector();
 
-                data = dbConnector.Select(loginQuery);
-                if (data[0] == "1")
+                data = dbConnector.Select(loginQuery, 1);
+                if (data[0].I1 == "1")
                 {
                     return true;
 
                 }
-                _username = data[0];
+                _username = data[0].I1;
                 _email = email;
                 return false;
                 throw new NotImplementedException();

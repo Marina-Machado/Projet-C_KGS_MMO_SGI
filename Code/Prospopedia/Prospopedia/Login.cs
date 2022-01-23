@@ -29,7 +29,10 @@ namespace Prospopedia
             }
             else
             {
-                MessageBox.Show("Logged in !!");
+                this.Hide();
+                
+                MainMenu mainMenu = new();
+                mainMenu.Show();
             }
         }
     }

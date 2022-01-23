@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Code",
+    "\\Code\\Prospopedia"
   ],
-  "SelectedNode": "\\Prospopedia.sln",
+  "SelectedNode": "\\Code\\Prospopedia\\Prospopedia.sln",
   "PreviewInSolutionExplorer": false
 }

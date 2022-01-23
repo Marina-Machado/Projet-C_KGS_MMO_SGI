@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
+using System.Data;
 
 namespace Prospopedia
 {
@@ -29,7 +30,7 @@ namespace Prospopedia
             database = "Prospopediadb";
             uid = "Prospopedia";
             password = "Pa$$w0rd";
-            connectionString = "SERVER=" + server + ";" + "Port = 3306;" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "pwd=" + password + ";" + "SSL Mode = None";
+            connectionString = "SERVER=" + server + ";" + "Port = 3306;" + "DATABASE=" + database + ";" + "UID=" + uid + ";" + "pwd=" + password + "; SslMode = Required";
             connection = new MySql.Data.MySqlClient.MySqlConnection(connectionString);
         }
 
@@ -135,16 +136,15 @@ namespace Prospopedia
 
 
         //Select statement
-        public List<string> Select(string query)
+        public List<DataHandler> Select(string query, int nOfColumns)
         {
-            //string query = "SELECT * FROM tableinfo";
+            //query = "SELECT * FROM images";
 
             //Create a list to store the result
 
 
-            List<string> list = new List<string>();
-
-
+            DataTable dt = new();
+            List<DataHandler> list = new();
 
             //Open connection
             if (this.OpenConnection() == true)
@@ -152,24 +152,40 @@ namespace Prospopedia
                 //Create Command
                 MySqlCommand cmd = new MySqlCommand(query, connection);
                 //Create a data reader and Execute the command
-                MySqlDataReader dataReader = cmd.ExecuteReader();
+                dt.Load(cmd.ExecuteReader());
 
                 //Read the data and store them in the list
-                while (dataReader.Read())
+
+                foreach (DataRow row in dt.Rows)
                 {
-                    var myString = dataReader.GetString(0); //The 0 stands for "the 0'th column", so the first column of the result.
-                                                            // Do somthing with this rows string, for example to put them in to a list
-                    list.Add(myString);
+                    DataHandler dth = new();
+                    if(nOfColumns >= 1)dth.I1 = row[0].ToString() + "";
+                    if (nOfColumns >= 2) dth.I2 = row[1].ToString() + "";
+                    if (nOfColumns >= 3) dth.I3 = row[2].ToString() + "";
+                    if (nOfColumns >= 4) dth.I4 = row[3].ToString() + "";
+                    if (nOfColumns >= 5) dth.I5 = row[4].ToString() + "";
+                    if (nOfColumns >= 6) dth.I6 = row[5].ToString() + "";
+                    if (nOfColumns >= 7) dth.I7 = row[6].ToString() + "";
+                    if (nOfColumns >= 8) dth.I8 = row[7].ToString() + "";
+                    if (nOfColumns >= 9) dth.I9 = row[8].ToString() + "";
+                    if (nOfColumns >= 10) dth.I10 = row[9].ToString() + "";
+                    if (nOfColumns >= 11) dth.I11 = row[10].ToString() + "";
+                    if (nOfColumns >= 12) dth.I12 = row[11].ToString() + "";
+                    if (nOfColumns >= 13) dth.I13 = row[12].ToString() + "";
+
+                    list.Add(dth);
                 }
 
+
+
+
+
                 //close Data Reader
-                dataReader.Close();
 
                 //close Connection
                 this.CloseConnection();
-
-                //return list to be displayed
                 return list;
+                //return list to be displayed
             }
             else
             {
